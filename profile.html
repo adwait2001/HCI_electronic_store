@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="./header.css">
+    <link rel="stylesheet" href="./profile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="flexx">
+        <div class="top">
+            <h1>Profile Settings</h1>
+        </div>
+        <div class="shopping">
+            <div class="sidebar">
+                <div class="image">
+                    <img class="circle" src="./5.jpg" style="width:100px;height:115px" />
+                    <h3>Sam Wilson</h3>
+                </div>
+                <div class="tablist">
+                    <a class="touch"><span class="fa fa-home"></span> Account</a>
+                    <a class="touch"><span class="fa fa-key"></span> Password</a>
+                    <a class="touch"><span class="fa fa-lock"></span> Security</a>
+                    <a class="touch"><span class="fa fa-tasks"></span> Application</a>
+                </div>
+            </div>
+            <div class="content">
+                <h2 class="heading">Account Settings</h2>
+                <form>
+                    <div class="row">
+                        <div class="element">
+                            <label for="fname">First Name</label>
+                            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                        </div>
+                        <div class="element">
+                            <label for="lname">Last Name</label>
+                            <input type="text" id="lname" name="lastname" placeholder="Your name..">
+                        </div>
+                        <div class="element">
+                            <label for="email">Email</label>
+                            <input type="text" id="email" name="email" placeholder="Your email..">
+                        </div>
+                        <div class="element">
+                            <label for="Phone">Phone No</label>
+                            <input type="text" id="Phone" name="Phone" placeholder="Your Phone no..">
+                        </div>
+                        <div class="element">
+                            <label for="Bio">Bio :</label>
+                            <textarea id="bio" rows="5" placeholder="Write About Yourself.."></textarea>
+                        </div>      
+                    </div>
+                    <div class="button-pair">
+                        <button class="button1">Update</button>
+                        <button class="button2">Cancel</button>
+                    </div>
+                   
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -24,8 +24,8 @@
     padding: 0;
     width: 300px;
     background-color: #f1f1f1;
-    position: fixed;
-    height: 100%;
+    position: absolute;
+    height: 1300px;
     overflow: auto;
   }
   
@@ -70,6 +70,7 @@
   .card-list{
     margin-top: 20px;
     display: flex;
+    flex-wrap: wrap;
   }
 
   .card {
@@ -79,6 +80,8 @@
     text-align: center;
     font-family: arial;
     transition: box-shadow 0.5s;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
 
   .card:hover{
@@ -334,4 +337,32 @@
   {
     padding-bottom: 30px;
     border-bottom: 1px solid wheat;
+  }
+
+  .stars
+  {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+
+  .stars:hover
+  {
+    color: #2196F3;
+  }
+
+
+  .arrivals
+  {
+    margin-top: 20px;
+    margin-left: 45px;
+    font-size: 16px;
+    font-weight: 300;
+  }
+
+  .arrivals:hover
+  {
+    color: #2196F3;
   }
